@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navbar {
+    background-color: bisque;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navpic {
+    height: auto; 
+    width: auto; 
+    border-radius: 50%;
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+.navleft {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.navright {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+
+}
+
+.workers {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 40px;
+    
+}
+
+.coworkers {
+    flex: 1;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.profiles {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.content {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.profilepic {
+    flex: 0 1 auto;
+}
+
+.list {
+    flex: 0 1 auto;
+
+}
+
+.footer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: bisque;
+    padding:30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.cardItem {
+    height: auto; 
+    width: auto; 
+    border-radius: 50%;
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+.profilePicItem {
+    height: auto; 
+    width: auto; 
+    border-radius: 50%;
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
